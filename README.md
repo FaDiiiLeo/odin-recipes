@@ -1,0 +1,1 @@
+This is a simple website for recipes made only using HTML5. I have learned basic HTML5 tags and their uses by developing this website.
