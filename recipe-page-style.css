@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: rgb(184, 119, 0);
+}
+body{
+    background-color: rgb(238, 222, 211);
+}
+h1{
+    text-align: center;
+    font-family: 'Dancing Script', 'cursive';
+    font-size: 35px;
+    padding: 20px 0px
+}
+.images{
+    width: 100%;
+    height: 300px;
+    padding: 30px 130px;
+}
+img{
+    width: auto;
+    height: 225px;
+}
+@media screen and (max-width: 1350px) {
+    img{
+        width: auto;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 1210px) {
+    img{
+        width: auto;
+        height: 150px;
+    }
+}
+@media screen and (max-width: 970px) {
+    img{
+        width: 50%;
+        height: auto;
+        display: block;
+        margin: auto
+    }
+    .images{
+        height: auto;
+    }
+}
+
+.details{
+    padding: 20px 60px;
+}
+.details h2{
+    padding: 10px 0px;
+}
+.details h3{
+    padding: 20px 0px 10px 0px;
+}
+.steps li{
+    padding: 5px 0px;
+}
+ol > li::marker {
+    font-weight: bold;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: rgba(192, 125, 0, 0.37);
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(184, 119, 0);
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(211, 137, 0);
+}
