@@ -23,19 +23,13 @@ img{
     width: auto;
     height: 225px;
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1024px) {
     img{
         width: auto;
-        height: 200px;
+        height: 155px;
     }
 }
-@media screen and (max-width: 1210px) {
-    img{
-        width: auto;
-        height: 150px;
-    }
-}
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 768px) {
     img{
         width: 50%;
         height: auto;
@@ -43,6 +37,31 @@ img{
         margin: auto
     }
     .images{
+        height: auto;
+    }
+}
+@media screen and (max-width: 425px) {
+    img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto
+    }
+    .images{
+        padding: 30px 100px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto
+    }
+    .images{
+        padding: 30px 80px;
         height: auto;
     }
 }

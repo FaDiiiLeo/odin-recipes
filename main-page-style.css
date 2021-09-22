@@ -82,7 +82,7 @@ h2{
         height: 1000px;
     }
     .container div{
-        margin-left: 200px;
+        margin-left: 170px;
     }
     .cookies, .shrimp, .chickenSkewers{
         margin-top: 60px;
@@ -104,7 +104,35 @@ h2{
     h2{
         padding-bottom: 50px;
     }
-}  
+}
+@media screen and (max-width: 375px){
+    .container{
+        height: 1000px;
+    }
+    .container div{
+        margin-left: -20px;
+    }
+    .cookies, .shrimp, .chickenSkewers{
+        margin-top: 60px;
+    }
+    h2{
+        padding-bottom: 50px;
+    }
+}
+@media screen and (max-width: 320px){
+    .container{
+        height: 1000px;
+    }
+    .container div{
+        margin-left: -50px;
+    }
+    .cookies, .shrimp, .chickenSkewers{
+        margin-top: 60px;
+    }
+    h2{
+        padding-bottom: 50px;
+    }
+} 
 
 ::-webkit-scrollbar{
     width: 10px;
