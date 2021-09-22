@@ -1,1 +1,1 @@
-This is a simple website for recipes made using HTML5 and CSS3. I have added a lot of CSS from previous version and made the webpages a little responsive for smaller devices using only media queuries.
+This is a simple website for recipes made using HTML5 and CSS3. I have added a lot of CSS as compared to the previous version and made the webpages a little responsive for smaller devices using only media queuries.
